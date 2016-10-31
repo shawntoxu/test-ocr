@@ -1,0 +1,22 @@
+
+查询当前系统的tesseract版本，安装软件及字体
+
+ apt-cache search tesseract
+
+
+apt-get install tesseract
+apt-get install tesseract-ocr-chi-sim
+apt-get install tesseract-ocr-chi-tra
+
+ ubuntu14.04  版本3.03
+ 
+
+简体中文 chi_sim
+
+同时识别2中语言
+ tesseract myscan.png out -l eng+deu
+
+
+-psm 7 表示这是单行文字
+
+
